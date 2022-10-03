@@ -58,7 +58,7 @@ section {
   text-align: center; }
 
 .shadow {
-  box-shadow: 0 10px 30px 0 rgba(67, 80, 98, 0.24), 0 2px 4px 0 rgba(67, 80, 98, 0.1) !important; }
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.24), 0 2px 4px 0 rgba(0, 0, 0, 0.1) !important; }
 
 #header-navbar {
   position: absolute;
@@ -114,9 +114,9 @@ section {
     right: 0;
     background: #ff00cc;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #1f1b1e);
+    background: -webkit-linear-gradient(to right, #010101, #1f1b1e);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #433841);
+    background: linear-gradient(to right, #070707, #040404);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .jumbotron h1 {
     line-height: .9;
@@ -206,8 +206,8 @@ section {
   width: 2000px;
   height: 400px;
   background: #8E2DE2;
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: -webkit-linear-gradient(to right,#FFD700, #000);
+  background: linear-gradient(to right, #FFD700, #000);
   transform-origin: 50% 150% 0;
   position: absolute;
   left: 0;
@@ -218,8 +218,8 @@ section {
   width: 2000px;
   height: 400px;
   background: #8E2DE2;
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: -webkit-linear-gradient(to right,#FFD700,#000);
+  background: linear-gradient(to right, #FFD700, #000);
   transform-origin: 65% 100% 0;
   position: absolute;
   right: 0;
@@ -261,7 +261,7 @@ section {
 .rectangle-1 {
   opacity: 0;
   animation: grow1 ease 1s forwards;
-  box-shadow: 0px 20px 30px 0px rgba(9, 21, 54, 0.25) !important; }
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.25) !important; }
 
 .rectangle-2 {
   opacity: 0;
@@ -271,7 +271,7 @@ section {
 .rectangle-transparent-1 {
   width: 500px;
   height: 500px;
-  border: 15px solid rgba(255, 255, 255, 0.08);
+  border: 15px solid rgba(6, 0, 0, 0.08);
   position: absolute;
   left: -5%;
   bottom: -10%;
@@ -281,7 +281,7 @@ section {
 .rectangle-transparent-2 {
   width: 600px;
   height: 600px;
-  border: 15px solid rgba(255, 255, 255, 0.08);
+  border: 15px solid rgba(0, 0, 0, 0.08);
   position: absolute;
   right: -10%;
   top: 5%;
